@@ -14,10 +14,9 @@ import os
 import spacy
 import logging
 import pandas as pd
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+#st.title("🎈 My new app")
+#st.write(
+   # "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."#)
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
