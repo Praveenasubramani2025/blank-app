@@ -1,19 +1,15 @@
-# 🎈 Blank app template
+# File Processor Web App
 
-A simple Streamlit app template for you to modify!
+This is a simple Streamlit web app that takes multiple uploaded CSV files, processes them, and returns a single Excel file as output.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+- Upload multiple CSV files
+- Combine and process them (custom logic inside `process_files`)
+- Download the result as an Excel file
 
-1. Install the requirements
+## Run Locally
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+pip install -r requirements.txt
+streamlit run app.py
